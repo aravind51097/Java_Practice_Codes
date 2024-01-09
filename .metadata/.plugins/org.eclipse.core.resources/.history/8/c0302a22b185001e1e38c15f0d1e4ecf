@@ -1,0 +1,36 @@
+package leetcodeEasyProblem;
+
+
+
+class Solution{
+	
+	public int[] plusOne(int[] nums) {
+		
+		StringBuffer str_digits=new StringBuffer();
+		
+		for(int n :nums) {
+			str_digits.append(n);
+		}
+		
+		System.out.println(str_digits);
+		
+		return null;
+		
+		
+	}
+	
+}
+
+public class PlusOneNumber {
+
+	public static void main(String[] args) {
+		
+		
+		Solution obj =new Solution();
+		
+		int a[]={1,2,3,4,5};
+		
+		obj.plusOne(a);
+		
+	}
+}

@@ -1,0 +1,21 @@
+package com.java.NaveenJava;
+
+
+class s{
+	int n ;
+	protected  s (int n) {
+		this.n=n;
+		
+	}
+}
+
+class b extends s{
+
+		
+}
+public class Construct {
+	public static void main(String[] args) {
+		
+	}
+
+}

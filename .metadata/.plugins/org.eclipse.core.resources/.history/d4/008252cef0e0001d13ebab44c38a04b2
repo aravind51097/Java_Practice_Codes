@@ -1,0 +1,17 @@
+package com.java.practice;
+
+class Flags{
+	
+	void americanFlag() {
+		
+		for(int i=0;i<10;i++) {
+			System.out.println("*".repeat(5));
+			
+		}
+	}
+}
+
+
+public class PrintingAmericanFalg {
+
+}

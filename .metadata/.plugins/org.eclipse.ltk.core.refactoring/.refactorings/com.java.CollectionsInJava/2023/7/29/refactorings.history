@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.java.Collections&apos; to &apos;com.java.CollectionsJava&apos;&#x0D;&#x0A;- Original project: &apos;com.java.CollectionsInJava&apos;&#x0D;&#x0A;- Original element: &apos;com.java.CollectionsInJava/src/com.java.Collections&apos;&#x0D;&#x0A;- Renamed element: &apos;com.java.CollectionsInJava/src/com.java.CollectionsJava&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.java.Collections&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.java.Collections" name="com.java.CollectionsJava" qualified="false" references="true" stamp="1689918162267" textual="false" version="1.0"/>
+</session>

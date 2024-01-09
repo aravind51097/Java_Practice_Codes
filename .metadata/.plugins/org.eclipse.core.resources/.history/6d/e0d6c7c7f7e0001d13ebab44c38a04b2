@@ -1,0 +1,48 @@
+package com.java.practice;
+
+class Flags{
+	
+	void americanFlag() {
+		
+		for(int row=1;row<16;row++) {
+			for(int col=1;col<=36;col++) {
+				if(row<11) {
+					if(col<=6) {
+						if(row%2!=0) {
+							System.out.print("* ");
+							if(col==5) {
+								System.out.print(" ");
+							}
+							}
+						else if(col<=5) {
+								System.out.print(" *");
+							}
+					}
+					else if (row%2==0){
+								System.out.print("=");
+										}
+				else if(row%2!=0){
+								System.out.print("=");
+							}
+				}
+				else {
+					
+							System.out.print("=");
+						}
+			}
+			System.out.println();
+			
+		}
+	}
+}
+
+
+public class PrintingAmericanFalg {
+	public static void main(String[] args) {
+		
+		Flags obj=new Flags();
+		obj.americanFlag();
+		
+	}
+
+}

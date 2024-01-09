@@ -1,0 +1,27 @@
+package com.java.practice;
+
+
+class Factor{
+	
+	void factorOfNumber(int num) {
+		
+		for(int i=1;i<=num;i++) {
+			
+			if(num%i==0) {
+				System.out.println(i);
+			}
+		}
+		
+	}
+}
+
+
+public class FactorsOfNumber {
+	public static void main(String[] args) {
+		
+		Factor obj=new Factor();
+		
+		obj.factorOfNumber(12);
+	}
+
+}

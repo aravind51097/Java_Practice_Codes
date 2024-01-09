@@ -1,0 +1,31 @@
+package com.java.practice;
+
+
+
+class Patteren{
+	
+	void star(int num) {
+		
+		
+		for(int i=0 ; i<=num ;i++) {
+			
+			System.out.println("*".repeat(i));
+		}
+		
+		
+	}
+	
+}
+
+public class StarPatteren {
+	
+	public static void main(String[] args) {
+		
+		Patteren obj=new Patteren();
+		
+		obj.star(5);
+		
+		
+	}
+
+}

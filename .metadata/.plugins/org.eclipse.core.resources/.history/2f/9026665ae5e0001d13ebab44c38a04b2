@@ -1,0 +1,25 @@
+package com.java.practice;
+
+
+class NumberPatteren{
+	
+	void pattren(int num ) {
+		
+		for(int i=1;i<=num;i++) {
+			System.out.println(i);
+			
+		}
+		
+	}
+}
+
+
+public class PrintingPatterenNumber {
+	public static void main(String[] args) {
+		
+		NumberPatteren obj=new NumberPatteren();
+		
+		obj.pattren(5);
+		
+	}
+}
