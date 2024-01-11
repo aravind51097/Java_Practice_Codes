@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="com.java.ArrayLists/src"/>
+	<classpathentry kind="src" path="com.java.Collections/src"/>
+	<classpathentry kind="src" path="com.java.CollectionsInJava/src"/>
+	<classpathentry kind="src" path="com.java.Constructor/src"/>
+	<classpathentry kind="src" path="com.java.ConstructorwithEncapsulation/src"/>
+	<classpathentry kind="src" path="com.java.dayChallenge100/src"/>
+	<classpathentry kind="src" path="com.java.Enum/src"/>
+	<classpathentry kind="src" path="com.java.FileHandling/src"/>
+	<classpathentry kind="src" path="com.java.FunctionalInterface/src"/>
+	<classpathentry kind="src" path="com.java.NaveenJava/src"/>
+	<classpathentry kind="src" path="com.java.Pesudocode/src"/>
+	<classpathentry kind="src" path="com.java.Rectangle/src"/>
+	<classpathentry kind="src" path="com.java.StreamAPI/src"/>
+	<classpathentry kind="src" path="com.java.WhileLoop/src"/>
+	<classpathentry excluding="leetcodeEasyProblem/" kind="src" path="LeetCode/src"/>
+	<classpathentry kind="src" path="LeetCode/src/leetcodeEasyProblem"/>
+	<classpathentry kind="output" path="LeetCode/bin"/>
+</classpath>
